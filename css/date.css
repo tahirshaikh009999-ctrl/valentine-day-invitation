@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  font-family: "Courier";
+  background-color: #fff5e4;
+  color: #ff9494;
+  
+  /* Centering the entire form on the screen */
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers vertically */
+  align-items: center;     /* Centers horizontally */
+  overflow: hidden;        /* Removes scrollbars */
+}
+
+h1 {
+  font-size: 5vh;          /* Responsive size based on height */
+  margin: 2vh 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;                /* Adds consistent vertical space between elements */
+}
+
+form .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  margin-bottom: 1vh;
+  color: #ff9494;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3.5vh;
+}
+
+.button, input[type="date"] {
+  padding: 1.5vh 2.5vh;    /* Responsive padding */
+  font-size: 2vh;          /* Responsive font */
+  cursor: pointer;
+  margin: 1vh;
+  font-family: "courier";
+  background-color: #ffe3e1;
+  color: #e67373;
+  border-radius: 12px;
+  border: 2px solid #ffe3e1;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #ff9494;
+  color: #ffe3e1;
+  border: 2px solid #ff9494;
+}
